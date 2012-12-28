@@ -1,0 +1,13 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+a[0]:0$
+a[1]:1$
+a[n]:=11*a[n-1]-10*a[n-2]$
+A002275(n):=a[n]$
+makelist(A002275(n),n,0,30);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

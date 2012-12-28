@@ -1,0 +1,16 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+A108100(n):=8*n^2+2$
+makelist(A108100(n),n,0,30);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+A000466(n):=4*n^2-1$
+A108100(n):=(A000466(n)+2)*2$
+makelist(A108100(n),n,0,30);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

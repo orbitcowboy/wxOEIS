@@ -1,0 +1,24 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+a[0]:0$
+a[1]:1$
+a[n]:=a[n-1]+2*a[n-2]+2$
+A000225(n):=a[n]$
+makelist(A000225(n),n,0,30);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+A000225(n):=2^n-1$
+makelist(A000225(n),n,0,30);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+A007283(n):=3*2^n$
+A000225(n):=(A007283(n)/3)-1$
+makelist(A000225(n),n,0,30);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

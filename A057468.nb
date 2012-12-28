@@ -1,0 +1,104 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2608,         95]
+NotebookOptionsPosition[      2178,         75]
+NotebookOutlinePosition[      2520,         90]
+CellTagsIndexPosition[      2477,         87]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Select", "[", 
+   RowBox[{
+    RowBox[{"Range", "[", 
+     RowBox[{"10", "^", "4"}], "]"}], ",", 
+    RowBox[{
+     RowBox[{"PrimeQ", "[", 
+      RowBox[{
+       RowBox[{"3", "^", "#"}], "-", 
+       RowBox[{"2", "^", "#"}]}], "]"}], "&"}]}], "]"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.55932796570675*^9, 3.55932799401925*^9}, {
+  3.5593280324936857`*^9, 3.5593280348379307`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2", ",", "3", ",", "5", ",", "17", ",", "29", ",", "31", ",", "53", ",", 
+   "59", ",", "101", ",", "277", ",", "647", ",", "1061", ",", "2381", ",", 
+   "2833", ",", "3613", ",", "3853", ",", "3929", ",", "5297", ",", "7417"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.5593291812667694`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", 
+    RowBox[{"10", "^", "8"}], "]"}], ",", 
+   RowBox[{
+    RowBox[{"PrimeQ", "[", 
+     RowBox[{
+      RowBox[{"3", "^", "#"}], "-", 
+      RowBox[{"2", "^", "#"}]}], "]"}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.559329221469773*^9, 3.5593292241572385`*^9}, {
+  3.5593297345947833`*^9, 3.5593297361260433`*^9}, {3.5593297831730194`*^9, 
+  3.5593297847667694`*^9}, {3.5593299432755003`*^9, 3.5593299446817503`*^9}}],\
+
+
+Cell["\<\
+
+No more memory available.
+Mathematica kernel has shut down.
+Try quitting other applications and then retry.\
+\>", "Print",
+ CellChangeTimes->{
+  3.5593298040167694`*^9, {3.5593299561505003`*^9, 3.5593299749942503`*^9}}]
+}, Open  ]]
+},
+WindowSize->{615, 728},
+WindowMargins->{{Automatic, 484}, {0, Automatic}},
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (April 28, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 462, 13, 72, "Input"],
+Cell[1055, 38, 336, 7, 50, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1428, 50, 499, 12, 31, "Input"],
+Cell[1932, 65, 230, 7, 71, "Print"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

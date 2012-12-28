@@ -1,0 +1,19 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+a[0]:1$
+a[1]:72$
+a[2]:1332$
+a[3]:11832$
+a[4]:66222$
+a[5]:271224$
+a[6]:889716$ 
+a[7]:2476296$
+a[8]:6077196$ 
+a[n]:=8*a[n-1]-28*a[n-2]+ 56*a[n-3]- 70*a[n-4]+56*a[n-5]-28*a[n-6]+8*a[n-7]-a[n-8];
+makelist(a[n],n,0,30);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

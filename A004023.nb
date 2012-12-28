@@ -1,0 +1,58 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1233,         48]
+NotebookOptionsPosition[       981,         35]
+NotebookOutlinePosition[      1324,         50]
+CellTagsIndexPosition[      1281,         47]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", 
+    RowBox[{"10", "^", "7"}], "]"}], ",", 
+   RowBox[{
+    RowBox[{"PrimeQ", "[", 
+     RowBox[{"FromDigits", "[", 
+      RowBox[{"PadRight", "[", 
+       RowBox[{
+        RowBox[{"{", "}"}], ",", "#", ",", "1"}], "]"}], "]"}], "]"}], 
+    "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.559330546458996*^9, 3.5593305535996666`*^9}}]
+},
+WindowSize->{615, 655},
+WindowMargins->{{316, Automatic}, {36, Automatic}},
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (April 28, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[568, 21, 409, 12, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

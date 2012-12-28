@@ -1,0 +1,16 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+A100413(n):=6*10^n-8$
+makelist(A100413(n),n,1,17);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+A086943(n):=3*10^n-7$
+A100413(n):=(A086943(n)+3)*2$
+makelist(A100413(n),n,1,17);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

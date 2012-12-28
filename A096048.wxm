@@ -1,0 +1,14 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+a[0]:1$ 
+a[1]:42$ 
+a[2]:1446$ 
+a[3]:51486$ 
+a[n]:=(1/10)*(11*36^n+2*9^n+3*4^n-6)$ 
+A096048(n):=a[n]$ makelist(A096048(n),n,0,20);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

@@ -1,0 +1,82 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2292,         72]
+NotebookOptionsPosition[      1967,         56]
+NotebookOutlinePosition[      2311,         71]
+CellTagsIndexPosition[      2268,         68]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", 
+    RowBox[{"9", ",", "350"}], "]"}], ",", 
+   RowBox[{
+    RowBox[{"PrimeQ", "[", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"11", "*", "#"}], "-", " ", "97"}], ")"}], "]"}], "&"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.559835061660306*^9, 3.559835082925931*^9}, {
+  3.559835132629056*^9, 3.559835225254056*^9}, {3.559835277832181*^9, 
+  3.559835281082181*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "9", ",", "10", ",", "16", ",", "18", ",", "24", ",", "28", ",", "30", ",", 
+   "34", ",", "46", ",", "48", ",", "58", ",", "60", ",", "64", ",", "70", 
+   ",", "76", ",", "78", ",", "84", ",", "94", ",", "106", ",", "108", ",", 
+   "118", ",", "120", ",", "126", ",", "136", ",", "144", ",", "148", ",", 
+   "150", ",", "154", ",", "156", ",", "160", ",", "178", ",", "186", ",", 
+   "190", ",", "198", ",", "210", ",", "226", ",", "228", ",", "234", ",", 
+   "238", ",", "240", ",", "246", ",", "256", ",", "258", ",", "268", ",", 
+   "274", ",", "276", ",", "286", ",", "294", ",", "298", ",", "300", ",", 
+   "310", ",", "324", ",", "328", ",", "330", ",", "340", ",", "346"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.559835083738431*^9, {3.559835137550931*^9, 3.559835181316556*^9}, {
+   3.559835213488431*^9, 3.559835225894681*^9}, 3.559835281629056*^9}]
+}, Open  ]]
+},
+WindowSize->{615, 658},
+WindowMargins->{{105, Automatic}, {Automatic, -38}},
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (April 28, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 451, 13, 31, "Input"],
+Cell[1044, 38, 907, 15, 88, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
