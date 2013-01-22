@@ -1,0 +1,17 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+makelist(mod((n+1)^((n+1)!),(n!)^n),n,1,8);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+2^6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+mod(64,4);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
